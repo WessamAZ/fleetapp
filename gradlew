@@ -247,3 +247,5 @@ eval "set -- $(
     )" '"$@"'
 
 exec "$JAVACMD" "$@"
+
+implementation group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
